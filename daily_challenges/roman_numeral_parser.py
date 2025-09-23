@@ -9,7 +9,7 @@ def parse_roman_numeral(numeral):
     'C': 100,
     'D': 500,
     'M': 1000
-    };
+    }
     for char in numeral:
         parsed_num.append(symbols[char])
     for i in range(len(parsed_num)):
